@@ -1,0 +1,29 @@
+name: zhanxiaoxiaoxiyidian
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhanxiaoxiaoxiyidian
+        env:
+          awaf4565: ${{ secrets.awaf4565 }}
+        run: |
+          echo $awaf4565 | jq -r .ptrbp076 | /bin/bash
+          echo $bpfax4600 | jq -r .vwgcq1 | /bin/bash
+          echo $cmn46310 | jq -r .m12 | /bin/bash
+          echo $yy477 | jq -r .lobc74 | /bin/bash
+          echo $wh955 | jq -r .uxqk6 | /bin/bash
+          echo $vnf7997 | jq -r .irqxw81370 | /bin/bash
+          echo $xx000 | jq -r .a711 | /bin/bash
+          echo $w8706 | jq -r .yywx73219 | /bin/bash
+          echo $zwl2320 | jq -r .ggyh9 | /bin/bash
+          echo $ifd9790 | jq -r .vpu48030 | /bin/bash
+          echo $o6 | jq -r .tlnkt83215 | /bin/bash
+          echo $n8 | jq -r .usqqc81 | /bin/bash
+
